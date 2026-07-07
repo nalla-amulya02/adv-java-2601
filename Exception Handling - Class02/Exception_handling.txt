@@ -1,0 +1,34 @@
+Exception - generic object
+
+ArithmeticException 
+NullPointerException
+indexOutOfBound Exception
+
+
+try{
+    risky code
+}catch(Exception e){
+    handling the exception
+}
+-------------
+try{
+    risky code
+}catch(ArithmeticException e){
+    handling the exception
+}
+
+---------------
+
+catch chaining
+try{
+    code-> nullpointerexception
+    risky code -> arithmetic exception
+}catch(exception1 e1){ -> nullpointerexception
+    handing code e1
+}catch(exception2 e2){ -> indexoutof bound exception
+    handling code for e2
+}catch(Exception e ){
+    sout -> e
+}
+
+program
