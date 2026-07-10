@@ -1,0 +1,70 @@
+linkedlist -> fast insertions, deletion
+add()
+remove()
+addLast()
+removeLast()
+get()
+peek()
+containes()
+
+Vector -> arrays - threadsafe
+
+Stack -> LIFO- last in first out
+push()
+pop()
+peek()
+empty()
+size()
+
+SET -> avoid duplicates
+ 
+HashSet ->store elements -> fast retrieval -> no order 
+add
+remove
+containes
+size()
+addAll()
+isEmpty()
+
+linkedHashSet -> preserve order
+
+TreeSet - > sorted data
+
+
+Queue -> FIFO - first in first out
+
+PriorityQueue -> automatically sorts the data according to a priority
+offer()
+poll()
+size()
+contains()
+peek()
+remove()
+add()
+clear()
+
+
+map -> STORED THE DATA IN key,value -> [(100, john ),(101,jimmy),()]
+
+hashmap -> unique keys, values- duplicate, fast lookups, -> no order
+put()
+replace()
+keySet() -> 100,101
+values() -> John,Jimmy
+entryset() -> getting the hod pf pairs
+containsKey(100)
+
+LinkedHashMap - > preserve order 
+TreeMap -> sort the pairs on keys
+
+
+Hashtable -> hashmap but threadsafe
+
+
+
+collection utility class ->
+sort()
+shuffle()
+min()
+max()
+reverse()
