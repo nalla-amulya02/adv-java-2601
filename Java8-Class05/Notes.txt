@@ -1,0 +1,58 @@
+Java 8 features
+
+1. introduced functional programming
+functional interfaces
+lambda expressions
+method references
+
+2. Stream API
+3. Static methods in interfaces
+4. Optional -> class -> controlling NullPointerExceptions
+5. New Date and Time module -API -> java.Time
+6. More collection related methods -> foreach(),sort()
+
+
+
+
+
+
+Functional Interface - > Interfaces with only one method
+
+lambda function syntax -> (parameters) -> {
+    body
+}
+
+() -> {System.out.println("This is an example method.");}
+
+
+
+StreamAPI -> create stream() 
+
+filter() -> 2,4,6,8
+map() -> n -> n**2 -> 4,16,36,64
+sorted()
+distinct()
+skip()
+limit()
+count()
+min()
+max()
+findFirst()
+finadAll()
+Collect(Collectors.tolist())
+
+List<Integer> l = new ArrayList(1,2,3,4,5,6,7,8);
+
+[4,16,36,64]
+
+
+
+
+
+
+
+
+
+
+
+
