@@ -1,0 +1,11 @@
+7 steps -> JDBC
+
+1. import java packages -> java.sql.*
+2. load the driver
+3. register the driver
+4. create a connection
+5. create a statement
+6. execute the statement/query
+7. close the connection
+
+
