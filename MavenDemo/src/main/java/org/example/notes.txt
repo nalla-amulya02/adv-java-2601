@@ -1,0 +1,21 @@
+write code -> compile -> run the program -> testing -> package(jar)-> deployment
+
+
+mysql, postgresql, oracle, h2, db2,
+
+java ->connector JAR-> db
+
+
+maven -> build automation tool, dependency management tool
+
+
+old -> google -> downloaded the jar -> copy in application
+new -> maven -> i need postgres
+
+pom.xml -> maven ->internet -> download the jar -> project
+maven -> local repository -> .m2 -> if lib found ->loads
+      if not found -> mvn central repositroy -> download the lib/jar into .m2 folder
+
+
+
+
