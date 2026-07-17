@@ -1,0 +1,29 @@
+Hibernate
+
+ORM Framework -> Object Relational Mapping
+Java -> objects
+Student s = new Student(1,"John",10)
+
+
+Hibernate is built on top of JDBC , not replace JDBC
+Relational -> db
+mapping -> connecting
+
+hierbnate -> map java object with tables in db
+-> converts the objects into sql query and vice versa
+
+
+Hibernate aRCHITECTURE
+Java application -> Hibernate API -> JDBC -> Database
+
+
+
+Hibernate terminology ->
+1. Entity : A POJO- > plain Java object -> any java class which is represened as table in db
+2. SessionFactory:  Created only once -> responsible to create a session for every db operation
+3. Session :  represent one connection with db
+4. Transaction :  group the db operations -> commit -> to save
+
+
+
+hibernate.cfg.xml -> config file for hibernate
