@@ -1,0 +1,52 @@
+Spring - a JAVA framework used to build enterprise applications
+features-> IoC(Inversion of Control), DI(Dependency Injection)
+
+
+Ioc: Instead of developer manually creating the objects, spring will manage the object creation/ object lifecycle
+IoC container -> Holding all the object that spring has to manage
+bean - the objects which are managed by spring
+
+class A{
+ int num;
+ A(int n){
+    this.num = n;
+ }
+ public show(){
+ sout("hello")
+}
+
+class B{
+}
+
+A a = new A(2)
+a.show()
+
+
+
+DI: automatically provide the dependencies required by the object
+
+Car is dependent on Engine
+Engine -> dependency
+
+class Engine{
+
+}
+
+
+class CAR{
+
+    @Autowired
+    Engine e
+
+  public void drive(){
+  sout->  driving
+  }
+}
+
+Spring AOP: another feature -TBD
+Spring MVC: TBD
+
+
+
+
+
